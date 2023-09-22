@@ -11,7 +11,7 @@ import logo from '../../assets/logo.svg';
 const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
-  <p><a href="#wgot">O que é GPT?</a></p>
+  <p><a href="#wgpt">O que é GPT?</a></p>
   <p><a href="#possibility">OpenAI</a></p>
   <p><a href="#features">Cases</a></p>
   <p><a href="#blog">Arquivos</a></p>
