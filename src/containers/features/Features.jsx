@@ -20,7 +20,7 @@ const featuresData = [
   },
 ];
 
-const Feature = () => {
+const Features = () => {
   return (
     <div className="gpt__features section__padding" id="features">
     <div className="gpt__features-heading">
@@ -30,11 +30,11 @@ const Feature = () => {
     <div className="gpt__features-container">
       {/* Chamada do array de features  */}
       {featuresData.map((item, index) => (
-        <Feature title={item.title} text={item.text} key={item.title + index} />
+        <Features title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
   </div>
   )
 }
 
-export default Feature
+export default Features
